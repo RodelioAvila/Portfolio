@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 10%;
+    position:sticky;
+    top:0;
+    background:#87CEEB;
+}
+
+.logo{
+    color:white;
+}
+
+.logo span{
+    color:#191970;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    padding:50px;
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.hero-text h1{
+    font-size:3rem;
+}
+
+.hero-text span{
+    color:#38bdf8;
+}
+
+.hero-text p{
+    margin:20px 0;
+}
+
+.btn{
+    display:inline-block;
+    background:#38bdf8;
+    color:black;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.hero-image img{
+    width:320px;
+    border-radius:50%;
+    border:5px solid #38bdf8;
+}
+
+section{
+    padding:100px 10%;
+}
+
+section h2{
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.awards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#87CEEB;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:15px;
+}
+
+.skills-grid div{
+    background:#87CEEB;
+    padding:15px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.project-card{
+    background:#87CEEB;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.tags{
+    margin-top:15px;
+}
+
+.tags span{
+    background:#38bdf8;
+    color:black;
+    padding:5px 10px;
+    border-radius:20px;
+    margin-right:10px;
+}
+
+.timeline-item{
+    background:#87CEEB;
+    padding:25px;
+    border-radius:15px;
+}
+
+form{
+    max-width:600px;
+    margin:auto;
+}
+
+input, textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.socials{
+    margin-top:25px;
+    text-align:center;
+}
+
+.socials a{
+    color:#38bdf8;
+    margin:0 15px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#87CEEB;
+}
